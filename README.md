@@ -22,9 +22,8 @@ TECNOLOGIAS UTILIZADAS:
 El desarrollo del sistema se realizó utilizando las siguientes tecnologías:
 
 - Lenguaje de programación: Java
-- Desarrollo web: HTML5 y CSS
-- Base de datos: SQL Anywhere
-- Conectividad: JDBC
-- Entorno de desarrollo: Apache NetBeans
+- Desarrollo web: HTML5 y JavaScript
+- Base de datos: SQL Server
+- Entorno de desarrollo: Visual Code
 - Control de versiones: GitHub
 
