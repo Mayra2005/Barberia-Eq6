@@ -2,7 +2,9 @@
 proyecto Ing. Software Barberia
 
 NOMBRE: Barberia
-Integrantes: Mayra Azenet Ferrer Ramos
+
+Integrantes: 
+Mayra Azenet Ferrer Ramos
 Alondra Yazmin Galvan Zuñiga
 Xavier Israel Sucedo Castillo
 
