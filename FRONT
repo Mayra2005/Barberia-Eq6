@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Barbería</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Gestión de Barbería</h1>
+        <p id="rolActual">Rol no autenticado</p>
+    </header>
+
+    <nav id="menu"></nav>
+
+    <!-- LOGIN -->
+<!-- LOGIN -->
+
+<section id="login" class="active">
+
+    <h2>Inicio de Sesión</h2>
+
+    <label>Usuario</label>
+    <input type="text" id="usuario">
+
+    <label>Contraseña</label>
+    <input type="password" id="password">
+
+    <div class="actions">
+        <button onclick="login()">Iniciar Sesión</button>
+    </div>
+
+</section>
+
+    <!-- CU Agendar Cita -->
+
+    <section id="citas">
+
+        <h2>Agendar Cita</h2>
+
+        <label>Cliente</label>
+        <input type="text">
+
+        <label>Teléfono</label>
+        <input type="text">
+
+        <label>Servicio</label>
+        <select>
+            <option>Corte</option>
+            <option>Corte + Barba</option>
+        </select>
+
+        <label>Barbero</label>
+        <select>
+            <option> </option>
+        </select>
+
+        <label>Fecha</label>
+        <input type="date">
+
+        <label>Hora</label>
+        <input type="time">
+
+        <div class="actions">
+            <button onclick="mensaje('Cita registrada')">Registrar</button>
+        </div>
+
+        <h3>Lista de Citas</h3>
+
+        <table>
+            <tr>
+                <th>Cliente</th>
+                <th>Servicio</th>
+                <th>Fecha</th>
+                <th>Hora</th>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- CU Modificar Cita -->
+
+    <section id="modificar">
+
+        <h2>Modificar o Cancelar Cita</h2>
+
+        <select>
+            <option> </option>
+        </select>
+
+        <div class="actions">
+
+            <button onclick="mensaje('Cita modificada')">Modificar</button>
+
+            <button onclick="mensaje('Cita cancelada')">Cancelar</button>
+
+        </div>
+
+    </section>
+
+    <!-- CU Estilos -->
+
+    <section id="estilos">
+
+        <h2>Seleccionar Estilo</h2>
+
+        <select>
+            <option value="" selected disabled>Selecciona un estilo</option>
+            <option>Fade</option>
+            <option>Clásico</option>
+            <option>Low Fade</option>
+        </select>
+
+        <div class="actions">
+            <button onclick="mensaje('Estilo guardado')">Guardar</button>
+        </div>
+
+    </section>
+
+    <!-- CU Promociones -->
+
+    <section id="promociones">
+
+        <h2>Gestionar Promociones</h2>
+
+        <label>Nombre promoción</label>
+        <input type="text">
+
+        <label>Descuento</label>
+        <input type="text">
+
+        <div class="actions">
+            <button onclick="mensaje('Promoción guardada')">Guardar</button>
+        </div>
+
+        <table>
+
+            <tr>
+                <th>Promoción</th>
+                <th>Descuento</th>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- CU Empleados -->
+
+    <section id="empleados">
+
+        <h2>Gestión de Empleados</h2>
+
+        <label>Nombre</label>
+        <input type="text">
+
+        <label>Salario</label>
+        <input type="text">
+
+        <div class="actions">
+            <button onclick="mensaje('Empleado registrado')">Guardar</button>
+        </div>
+
+        <table>
+
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Salario</th>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td>$ </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- CU Pagos -->
+
+    <section id="pagos">
+
+        <h2>Gestionar Pagos</h2>
+
+        <label>Cliente</label>
+        <input type="text">
+
+        <label>Servicio</label>
+        <select>
+            <option>Corte</option>
+            <option>Corte + Barba</option>
+        </select>
+
+        <label>Monto</label>
+        <input type="text">
+
+        <div class="actions">
+            <button onclick="mensaje('Pago registrado')">Registrar Pago</button>
+        </div>
+
+        <table>
+
+            <tr>
+                <th>Cliente</th>
+                <th>Servicio</th>
+                <th>Monto</th>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td>$ </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- CU Respaldo -->
+
+    <section id="respaldo">
+
+        <h2>Copia de Seguridad</h2>
+
+        <div class="actions">
+            <button onclick="mensaje('Respaldo realizado')">Ejecutar Respaldo</button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
