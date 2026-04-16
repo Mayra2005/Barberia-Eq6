@@ -17,3 +17,14 @@ El sistema propuesto permitirá automatizar la gestión de citas, empleados, pro
 
 El sistema será de uso interno y únicamente interactuarán con él el dueño y los barberos, cada uno con permisos específicos según su rol. Esto permitirá un mejor control administrativo, reducción de errores humanos y una administración más moderna y eficiente del negocio.
 
+TECNOLOGIAS UTILIZADAS:
+
+El desarrollo del sistema se realizó utilizando las siguientes tecnologías:
+
+- Lenguaje de programación: Java
+- Desarrollo web: HTML5 y CSS
+- Base de datos: SQL Anywhere
+- Conectividad: JDBC
+- Entorno de desarrollo: Apache NetBeans
+- Control de versiones: GitHub
+
