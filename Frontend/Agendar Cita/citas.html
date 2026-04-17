@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Citas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cargarMenu()">
 
+<header>
+    <h1>Sistema de Barbería</h1>
+    <p id="rolActual"></p>
+</header>
+
+<nav id="menu"></nav>
+
+<section class="active">
+    <h2>Agendar Cita</h2>
+
+    <label>Cliente</label>
+    <input type="text">
+
+    <label>Teléfono</label>
+    <input type="text">
+
+    <label>Servicio</label>
+    <select>
+        <option>Corte</option>
+        <option>Corte + Barba</option>
+    </select>
+
+    <label>Barbero</label>
+    <select>
+        <option></option>
+    </select>
+
+    <label>Fecha</label>
+    <input type="date">
+
+    <label>Hora</label>
+    <input type="time">
+
+    <div class="actions">
+        <button onclick="alert('Cita registrada')">Registrar</button>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
