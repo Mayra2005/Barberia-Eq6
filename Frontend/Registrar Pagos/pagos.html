@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cargarMenu()">
+
+<header>
+    <h1>Sistema de Barbería</h1>
+    <p id="rolActual"></p>
+</header>
+
+<nav id="menu"></nav>
+
+<section class="active">
+    <h2>Gestionar Pagos</h2>
+
+    <label>Cliente</label>
+    <input type="text">
+
+    <label>Servicio</label>
+    <select>
+        <option>Corte</option>
+        <option>Corte + Barba</option>
+    </select>
+
+    <label>Monto</label>
+    <input type="text">
+
+    <div class="actions">
+        <button onclick="alert('Pago registrado')">Registrar Pago</button>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
