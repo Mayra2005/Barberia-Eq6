@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Empleados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cargarMenu()">
+
+<header>
+    <h1>Sistema de Barbería</h1>
+    <p id="rolActual"></p>
+</header>
+
+<nav id="menu"></nav>
+
+<section class="active">
+    <h2>Gestión de Empleados</h2>
+
+    <label>Nombre</label>
+    <input type="text">
+
+    <label>Salario</label>
+    <input type="text">
+
+    <div class="actions">
+        <button onclick="alert('Empleado registrado')">Guardar</button>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
